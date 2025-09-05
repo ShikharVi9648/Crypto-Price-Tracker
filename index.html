@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>₿ Crypto Price Tracker</h1>
+        <p>Real-time cryptocurrency prices and market data</p>
+      </header>
+
+      <div class="search">
+        <div class="search-container">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search cryptocurrencies..."
+          />
+          <img
+            class="search-icon"
+            src="assets/img/search.png"
+            alt="search-icon"
+          />
+        </div>
+
+        <button class="refresh-btn">
+          <img
+            class="refresh-icon"
+            src="assets/img/refresh.png"
+            alt="refresh-icon"
+          />
+          Refresh
+        </button>
+      </div>
+
+      <div class="last-updated">Last updated: --:--:--</div>
+      <div class="crypto-grid"></div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
